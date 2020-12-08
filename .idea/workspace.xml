@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="finished index hub">
-      <change afterPath="$PROJECT_DIR$/001 - Javascript Basis/Opdracht 1/Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001 - Javascript Basis/Opdracht 1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001 - Javascript Basis/Opdracht 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001 - Javascript Basis/Opdracht 3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001 - Javascript Basis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/001 - Javascript Basis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added H001/Opdracht 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,12 +39,16 @@
       <recent name="C:\School\Webstorm Projects\JavaScript\001 - Javascript Basis\Opdracht 1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript/001 - Javascript Basis/Opdracht 3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript/001 - Javascript Basis/Opdracht 1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -69,7 +65,7 @@
       <workItem from="1607413481824" duration="2077000" />
       <workItem from="1607415854353" duration="324000" />
       <workItem from="1607416557757" duration="397000" />
-      <workItem from="1607418105591" duration="1960000" />
+      <workItem from="1607418105591" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -92,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607418905957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added H001/Opdracht 1">
+      <created>1607420415719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607420415719</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added H001/Opdracht 2">
+      <created>1607420665554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607420665554</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +122,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added hub" />
     <MESSAGE value="finished index hub" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished index hub" />
+    <MESSAGE value="added H001/Opdracht 1" />
+    <MESSAGE value="added H001/Opdracht 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added H001/Opdracht 2" />
   </component>
 </project>
