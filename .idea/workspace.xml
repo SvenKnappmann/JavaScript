@@ -66,6 +66,7 @@
       <workItem from="1607415854353" duration="324000" />
       <workItem from="1607416557757" duration="397000" />
       <workItem from="1607418105591" duration="2274000" />
+      <workItem from="1607495379929" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -118,6 +119,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added hub" />
