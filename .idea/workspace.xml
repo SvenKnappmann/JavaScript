@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="changed sub index hub">
-      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004 - Javascript Functies/Opdracht 1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004 - Javascript Functies/Opdracht 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004 - Javascript Functies/Opdracht 3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/index.html" afterDir="false" />
+    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="changed index hub to V1.0">
+      <change afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/Script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/vulmetjs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/002 - Javascript DOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Javascript DOM/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/004 - Javascript Functies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/004 - Javascript Functies/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005 - Javascript Interactief/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/005 - Javascript Interactief/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006 - Memory Game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -82,7 +74,7 @@
       <workItem from="1607495379929" duration="579000" />
       <workItem from="1607499853460" duration="1147000" />
       <workItem from="1607501108604" duration="335000" />
-      <workItem from="1607501457184" duration="1007000" />
+      <workItem from="1607501457184" duration="1731000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -133,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607500430938</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed index hub to V1.0">
+      <created>1607502497010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607502497010</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +157,7 @@
     <MESSAGE value="added H001/Opdracht 2" />
     <MESSAGE value="changed index hub" />
     <MESSAGE value="changed sub index hub" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed sub index hub" />
+    <MESSAGE value="changed index hub to V1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed index hub to V1.0" />
   </component>
 </project>
