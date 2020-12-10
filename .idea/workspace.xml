@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="updated for responsiveness">
-      <change afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/Stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/img/Monkey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/img/Monkey1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 2/Script.js" afterDir="false" />
+    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added H002/Opdracht 1 and H002/Opdracht 2">
+      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/img/Kleur1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/img/Kleur2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/Script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/vulmetjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 1/vulmetjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/002 - Javascript DOM/Opdracht 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\School\Webstorm Projects\JavaScript\003 - Javascript Arrays\Opdracht 1\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\School\Webstorm Projects\JavaScript\002 - Javascript DOM\Opdracht 1\img" />
       <recent name="C:\School\Webstorm Projects\JavaScript\001 - Javascript Basis\Opdracht 1" />
@@ -83,7 +82,11 @@
       <workItem from="1607503536326" duration="1333000" />
       <workItem from="1607506259273" duration="557000" />
       <workItem from="1607514720787" duration="2004000" />
-      <workItem from="1607518013225" duration="957000" />
+      <workItem from="1607518013225" duration="1212000" />
+      <workItem from="1607585677221" duration="906000" />
+      <workItem from="1607589103475" duration="1012000" />
+      <workItem from="1607592308760" duration="1205000" />
+      <workItem from="1607593903311" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -148,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607503832867</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added H002/Opdracht 1 and H002/Opdracht 2">
+      <created>1607519171411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607519171411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +185,7 @@
     <MESSAGE value="changed sub index hub" />
     <MESSAGE value="changed index hub to V1.0" />
     <MESSAGE value="updated for responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated for responsiveness" />
+    <MESSAGE value="added H002/Opdracht 1 and H002/Opdracht 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added H002/Opdracht 1 and H002/Opdracht 2" />
   </component>
 </project>
