@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added H003/Opdracht 1">
-      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Stylesheet.css" afterDir="false" />
+    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="changed H003/Opdracht 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +89,9 @@
       <workItem from="1607593903311" duration="1833000" />
       <workItem from="1607600528026" duration="450000" />
       <workItem from="1607601230860" duration="716000" />
+      <workItem from="1607603192178" duration="239000" />
+      <workItem from="1607603994732" duration="679000" />
+      <workItem from="1607604811952" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607596128954</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changed H003/Opdracht 1">
+      <created>1607603390810</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607603390810</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +213,7 @@
     <MESSAGE value="updated for responsiveness" />
     <MESSAGE value="added H002/Opdracht 1 and H002/Opdracht 2" />
     <MESSAGE value="added H003/Opdracht 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added H003/Opdracht 1" />
+    <MESSAGE value="changed H003/Opdracht 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed H003/Opdracht 1" />
   </component>
 </project>
