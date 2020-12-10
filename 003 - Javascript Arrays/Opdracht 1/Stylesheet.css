@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#fitting {
+    width: 1200px;
+    background-color: blue;
+}
+h1 {
+    text-align: center;
+}

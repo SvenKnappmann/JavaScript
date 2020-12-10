@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added H002/Opdracht 1 and H002/Opdracht 2">
-      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/img/Kleur1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/img/Kleur2.png" afterDir="false" />
+    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added H003/Opdracht 1">
+      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" afterDir="false" />
     </list>
@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML_CSS_Project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -86,7 +86,9 @@
       <workItem from="1607585677221" duration="906000" />
       <workItem from="1607589103475" duration="1012000" />
       <workItem from="1607592308760" duration="1205000" />
-      <workItem from="1607593903311" duration="1349000" />
+      <workItem from="1607593903311" duration="1833000" />
+      <workItem from="1607600528026" duration="450000" />
+      <workItem from="1607601230860" duration="716000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -158,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607519171411</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added H003/Opdracht 1">
+      <created>1607595982414</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607595982414</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added H003/Opdracht 1">
+      <created>1607596128954</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607596128954</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +202,7 @@
     <MESSAGE value="changed index hub to V1.0" />
     <MESSAGE value="updated for responsiveness" />
     <MESSAGE value="added H002/Opdracht 1 and H002/Opdracht 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added H002/Opdracht 1 and H002/Opdracht 2" />
+    <MESSAGE value="added H003/Opdracht 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added H003/Opdracht 1" />
   </component>
 </project>

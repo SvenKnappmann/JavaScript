@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Opdracht 1</title>
+    <link rel="stylesheet" href="Stylesheet.css">
 </head>
 <body>
-<h1>
-    MonkeyShuffle
-</h1>
-<div>
-    <img src="img/Kleur1.png" alt="Kleur 1">
-    <img src="img/Kleur2.png" alt="Kleur 1">
-    <img src="img/Kleur3.png" alt="Kleur 1">
-    <img src="img/Kleur4.png" alt="Kleur 1">
-    <img src="img/Kleur5.png" alt="Kleur 1">
-    <img src="img/Kleur6.png" alt="Kleur 1">
-    <img src="img/Kleur7.png" alt="Kleur 1">
-    <img src="img/Kleur8.png" alt="Kleur 1">
-    <img src="img/Kleur9.png" alt="Kleur 1">
+<div id="fitting">
+    <header>
+        <h1>
+            ColorShuffle
+        </h1>
+    </header>
+    <main>
+        <div>
+            <img src="img/Kleur1.png" alt="Kleur 1">
+            <img src="img/Kleur2.png" alt="Kleur 1">
+            <img src="img/Kleur3.png" alt="Kleur 1">
+            <img src="img/Kleur4.png" alt="Kleur 1">
+            <img src="img/Kleur5.png" alt="Kleur 1">
+            <img src="img/Kleur6.png" alt="Kleur 1">
+            <img src="img/Kleur7.png" alt="Kleur 1">
+            <img src="img/Kleur8.png" alt="Kleur 1">
+            <img src="img/Kleur9.png" alt="Kleur 1">
+        </div>
+        <script src="Script.js">
 
+        </script>
+    </main>
 </div>
-<script>
-    var plaatjes = document.getElementsByTagName("img");
-    var random = 0;
-    for (var i = 0; i < plaatjes.length; i++) {
-        var random = Math.floor(Math.random() * 9) + 1;
-        plaatjes[i].src = "img/Kleur" + random + ".png";
-    }
-</script>
 </body>
 </html>
