@@ -47,6 +47,6 @@ function getColor3() {
     return teller3;
 }
 function Random() {
-    var random = Math.floor(Math.random() * plaatjes.length + 1);
+    random = Math.floor(Math.random() * plaatjes.length + 1);
     return random;
 }
