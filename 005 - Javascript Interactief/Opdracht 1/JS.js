@@ -30,5 +30,5 @@ function createColorImages() {
 function makeFav(id) {
     console.log("." + id);
     favorite = document.getElementById("favorite_" + id);
-    favorite.style.backgroundImage = "url('../Img/New%20Piskel.png')";
+    favorite.style.backgroundImage = "url('Img/New%20Piskel.png')";
 }
