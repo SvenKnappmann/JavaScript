@@ -1,0 +1,12 @@
+body {
+    box-sizing: border-box;
+}
+#playfield {
+    color: red;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+div.playfield {
+
+}
