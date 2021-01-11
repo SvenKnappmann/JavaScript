@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="changed H003/Opdracht 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/003 - Javascript Arrays/Opdracht 1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML_CSS_Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,8 +48,11 @@
       <recent name="C:\School\Webstorm Projects\JavaScript\001 - Javascript Basis\Opdracht 1" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript/001 - Javascript Basis/Opdracht 3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript/006 - Memory Game/Opdracht 1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScript/001 - Javascript Basis/Opdracht 1/index.html" useBuiltInWebServerPort="true">
@@ -57,6 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -92,6 +96,8 @@
       <workItem from="1607603192178" duration="239000" />
       <workItem from="1607603994732" duration="679000" />
       <workItem from="1607604811952" duration="1614000" />
+      <workItem from="1610353885522" duration="8000" />
+      <workItem from="1610354307657" duration="1737000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
