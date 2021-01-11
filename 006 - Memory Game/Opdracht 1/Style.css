@@ -5,3 +5,10 @@
     width: 1500px;
     height: 750px;
 }
+div.picture-holder {
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: solid 1px black;
+}
