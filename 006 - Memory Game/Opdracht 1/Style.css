@@ -1,9 +1,6 @@
-#playfield {
-    box-sizing: border-box;
-    background-color: red;
-    margin: auto;
-    width: 1500px;
-    height: 750px;
+body {
+    font-family: serif;
+    text-align: center;
 }
 div.picture-holder {
     box-sizing: border-box;
@@ -12,3 +9,10 @@ div.picture-holder {
     float: left;
     border: solid 1px black;
 }
+#playfield {
+     box-sizing: border-box;
+     background-color: red;
+     margin: auto;
+     width: 1500px;
+     height: 750px;
+ }

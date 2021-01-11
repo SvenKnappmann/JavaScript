@@ -9,15 +9,26 @@ function createPictureFrames() {
         pictureHolder.className = "picture-holder";
         pictureHolder.id = "picture-holder-" + i;
         playfield.appendChild(pictureHolder);
-
     }
 }
 function getPictures() {
+    let j = 1;
     pictureHolder = document.getElementsByClassName("picture-holder");
-    for (let i = 0; i < pictureHolders.length; i++) {
+    for (let i = 0; i < 18; i++) {
         picture = document.createElement("img");
-        picture.src = "../../003%20-%20Javascript%20Arrays/Opdracht%201/img/Kleur" + (i + 1) + ".png";
-        picture.id = (i + 1);
+        picture.src = "img/Kleur" + (j) + ".png";
+        picture.id = (i);
+        picture.addEventListener("click", function () {
+            SelectImg(this.id);
+        })
         pictureHolder[i].appendChild(picture);
+        j++;
+        if (j === 10) {
+            j = 1;
+        }
+
     }
+}
+function SelectImg(id) {
+    console.log("." + id)
 }

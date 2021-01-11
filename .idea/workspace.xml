@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added files">
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" afterDir="false" />
@@ -34,15 +43,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/006 - Memory Game/Opdracht 1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\School Repo's\JavaScript\006 - Memory Game\Opdracht 1" />
+      <recent name="C:\School Repo's\JavaScript\006 - Memory Game\Opdracht 1\img" />
       <recent name="C:\School\Webstorm Projects\JavaScript\003 - Javascript Arrays\Opdracht 1\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\School Repo's\JavaScript\006 - Memory Game\Opdracht 1\img" />
       <recent name="C:\School\Webstorm Projects\JavaScript\002 - Javascript DOM\Opdracht 1\img" />
       <recent name="C:\School\Webstorm Projects\JavaScript\001 - Javascript Basis\Opdracht 1" />
     </key>
@@ -97,7 +109,8 @@
       <workItem from="1607604811952" duration="1614000" />
       <workItem from="1610353885522" duration="8000" />
       <workItem from="1610354307657" duration="1800000" />
-      <workItem from="1610358103855" duration="1582000" />
+      <workItem from="1610358103855" duration="1766000" />
+      <workItem from="1610370519698" duration="3756000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -197,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610356081615</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added files">
+      <created>1610360786703</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610360786703</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
