@@ -1,10 +1,10 @@
-pics = document.getElementById("pics");
+let pics = document.getElementById("pics");
 createPicsHolders();
 createColorImages()
 
 function createPicsHolders() {
     for (let i = 0; i < 9; i++) {
-        pictureHolder = document.createElement("div");
+        let pictureHolder = document.createElement("div");
         pictureHolder.className = "picture-holder";
         pictureHolder.id = "picture-holder-" + i;
         pics.appendChild(pictureHolder);
@@ -12,12 +12,12 @@ function createPicsHolders() {
 }
 
 function createColorImages() {
-    pictureHolders = document.getElementsByClassName("picture-holder");
+    let pictureHolders = document.getElementsByClassName("picture-holder");
     for (let i = 0; i < pictureHolders.length; i++) {
-        favorite = document.createElement("div");
+        let favorite = document.createElement("div");
         favorite.className = "favorite";
         favorite.id = "favorite_" + (i + 1);
-        colorPicture = document.createElement("img");
+        let colorPicture = document.createElement("img");
         colorPicture.src = "../../003%20-%20Javascript%20Arrays/Opdracht%201/img/Kleur" + (i + 1) + ".png";
         colorPicture.id = (i + 1);
         colorPicture.addEventListener("click", function () {

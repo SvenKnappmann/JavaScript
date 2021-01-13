@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added files">
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/img/Kleur9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +102,10 @@
       <workItem from="1610353885522" duration="8000" />
       <workItem from="1610354307657" duration="1800000" />
       <workItem from="1610358103855" duration="1766000" />
-      <workItem from="1610370519698" duration="3756000" />
+      <workItem from="1610370519698" duration="3782000" />
+      <workItem from="1610442262509" duration="1096000" />
+      <workItem from="1610454102915" duration="2839000" />
+      <workItem from="1610528274586" duration="2272000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -217,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610360786703</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added files">
+      <created>1610376457330</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610376457330</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
