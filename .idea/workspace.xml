@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" afterDir="false" />
-    </list>
+    <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added files 0.6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +113,7 @@
       <workItem from="1610608196477" duration="14000" />
       <workItem from="1610612828912" duration="7126000" />
       <workItem from="1610626788797" duration="21000" />
-      <workItem from="1610627041669" duration="2731000" />
+      <workItem from="1610627041669" duration="3013000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -244,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610620454930</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added files 0.6">
+      <created>1610630067084</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610630067084</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +279,7 @@
     <MESSAGE value="added H003/Opdracht 1" />
     <MESSAGE value="changed H003/Opdracht 1" />
     <MESSAGE value="added files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files" />
+    <MESSAGE value="added files 0.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added files 0.6" />
   </component>
 </project>

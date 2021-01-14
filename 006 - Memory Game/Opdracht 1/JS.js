@@ -58,10 +58,11 @@ function Select(id) {
         pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
         console.log("second");
         if (kaartPlaatjes[eersteKaartHouder] === kaartPlaatjes[tweedeKaartHouder]) {
+            //je mag nog een keer
             console.log("correct");
             kaartPlaatjesGeheugen[eersteKaartHouder] = 1;
             kaartPlaatjesGeheugen[tweedeKaartHouder] = 1;
-            //je mag nog een keer
+            //Player score update
             if (beurt % 2 === 1) {
                 player1Score++;
             } else if (beurt % 2 === 0) {
