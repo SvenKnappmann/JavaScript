@@ -11,7 +11,6 @@ div.picture-holder {
 }
 #playfield {
      box-sizing: border-box;
-     background-color: red;
      margin: auto;
      width: 1500px;
      height: 750px;

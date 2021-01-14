@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="291d0b18-427d-44ec-a132-74f78091fc51" name="Default Changelist" comment="added files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/JS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/005 - Javascript Interactief/Opdracht 1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/006 - Memory Game/Opdracht 1/Style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1lMhutDOzBKm4cMdcJ2rwLudi0A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -105,7 +112,10 @@
       <workItem from="1610370519698" duration="3782000" />
       <workItem from="1610442262509" duration="1096000" />
       <workItem from="1610454102915" duration="2839000" />
-      <workItem from="1610528274586" duration="2272000" />
+      <workItem from="1610528274586" duration="2295000" />
+      <workItem from="1610542096995" duration="7000" />
+      <workItem from="1610608196477" duration="14000" />
+      <workItem from="1610612828912" duration="7107000" />
     </task>
     <task id="LOCAL-00001" summary="added hub">
       <created>1607413854863</created>
@@ -219,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610376457330</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added files">
+      <created>1610530555955</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610530555955</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
