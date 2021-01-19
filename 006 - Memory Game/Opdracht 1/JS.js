@@ -12,6 +12,8 @@ let player1Score = 0;
 let player2Score = 0;
 let eersteKaartHouder;
 let tweedeKaartHouder;
+let booleaneersteKaartHouder = false;
+let booleantweedeKaartHouder = false;
 
 function createPictureFrames() {
     for (let i = 0; i < kaartPlaatjes.length; i++) {
@@ -49,6 +51,9 @@ function Select(id) {
     counter++;
     beurt++;
     let pictureHolders = document.getElementsByClassName("picture-holder");
+    if (booleaneersteKaartHouder === true || booleantweedeKaartHouder === true) {
+
+    }
     if (counter % 2 === 1) {
         eersteKaartHouder = id;
         pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
@@ -61,7 +66,9 @@ function Select(id) {
             //je mag nog een keer
             console.log("correct");
             kaartPlaatjesGeheugen[eersteKaartHouder] = 1;
+            booleaneersteKaartHouder = false;
             kaartPlaatjesGeheugen[tweedeKaartHouder] = 1;
+            booleantweedeKaartHouder = false;
             //Player score update
             if (beurt % 2 === 1) {
                 player1Score++;
@@ -71,6 +78,8 @@ function Select(id) {
         } else {
             console.log("incorrect");
             //beurt is over
+            booleaneersteKaartHouder = true;
+            booleantweedeKaartHouder = true;
             beurt++;
         }
     } else {
