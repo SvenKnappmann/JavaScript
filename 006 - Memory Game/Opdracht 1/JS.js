@@ -12,8 +12,10 @@ let player1Score = 0;
 let player2Score = 0;
 let eersteKaartHouder;
 let tweedeKaartHouder;
-let booleaneersteKaartHouder = false;
-let booleantweedeKaartHouder = false;
+let vorigeRondeEersteKaartHouder;
+let vorigeRondeTweedeKaartHouder;
+let booleanEersteKaartHouder = false;
+let booleanTweedeKaartHouder = false;
 
 function createPictureFrames() {
     for (let i = 0; i < kaartPlaatjes.length; i++) {
@@ -51,24 +53,29 @@ function Select(id) {
     counter++;
     beurt++;
     let pictureHolders = document.getElementsByClassName("picture-holder");
-    if (booleaneersteKaartHouder === true || booleantweedeKaartHouder === true) {
-
+    if (booleanEersteKaartHouder === true || booleanTweedeKaartHouder === true) {
+        pictureHolders[vorigeRondeEersteKaartHouder].removeChild(src);
+        pictureHolders[vorigeRondeTweedeKaartHouder].removeChild(src);
+        booleanEersteKaartHouder = false;
+        booleanTweedeKaartHouder = false;
     }
     if (counter % 2 === 1) {
         eersteKaartHouder = id;
+        vorigeRondeEersteKaartHouder = id;
         pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
         console.log("first");
     } else if (counter % 2 === 0) {
         tweedeKaartHouder = id;
         pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
+        vorigeRondeTweedeKaartHouder = id;
         console.log("second");
         if (kaartPlaatjes[eersteKaartHouder] === kaartPlaatjes[tweedeKaartHouder]) {
             //je mag nog een keer
             console.log("correct");
             kaartPlaatjesGeheugen[eersteKaartHouder] = 1;
-            booleaneersteKaartHouder = false;
+            booleanEersteKaartHouder = false;
             kaartPlaatjesGeheugen[tweedeKaartHouder] = 1;
-            booleantweedeKaartHouder = false;
+            booleanTweedeKaartHouder = false;
             //Player score update
             if (beurt % 2 === 1) {
                 player1Score++;
@@ -78,8 +85,8 @@ function Select(id) {
         } else {
             console.log("incorrect");
             //beurt is over
-            booleaneersteKaartHouder = true;
-            booleantweedeKaartHouder = true;
+            booleanEersteKaartHouder = true;
+            booleanTweedeKaartHouder = true;
             beurt++;
         }
     } else {
