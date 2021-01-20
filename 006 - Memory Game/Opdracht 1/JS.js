@@ -12,8 +12,6 @@ let player1Score = 0;
 let player2Score = 0;
 let eersteKaartHouder;
 let tweedeKaartHouder;
-let vorigeRondeEersteKaartHouder;
-let vorigeRondeTweedeKaartHouder;
 let booleanEersteKaartHouder = false;
 let booleanTweedeKaartHouder = false;
 
@@ -50,44 +48,67 @@ function Shuffle(kaartPlaatjes) {
 }
 
 function Select(id) {
-    counter++;
-    beurt++;
     let pictureHolders = document.getElementsByClassName("picture-holder");
-    if (booleanEersteKaartHouder === true || booleanTweedeKaartHouder === true) {
-        pictureHolders[vorigeRondeEersteKaartHouder].removeChild(src);
-        pictureHolders[vorigeRondeTweedeKaartHouder].removeChild(src);
+    let playerBeurt = document.getElementById("player-beurt");
+    let winNotification = document.getElementById("win-notification");
+    if (player1Score >= 5) {
+        winNotification.textContent = "Player 1 has won";
+    } else if (player2Score >= 5) {
+        winNotification.textContent = "Player 2 has won";
+    }
+    if (beurt % 2 === 0) {
+        playerBeurt.textContent = "Player 1";
+    } else if (beurt % 2 === 1) {
+        playerBeurt.textContent = "Player 2"
+    }
+    if (booleanEersteKaartHouder === true && booleanTweedeKaartHouder === true) {
+        pictureHolders[eersteKaartHouder].firstChild.src = "";
+        pictureHolders[tweedeKaartHouder].firstChild.src = "";
         booleanEersteKaartHouder = false;
         booleanTweedeKaartHouder = false;
     }
-    if (counter % 2 === 1) {
-        eersteKaartHouder = id;
-        vorigeRondeEersteKaartHouder = id;
-        pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
-        console.log("first");
-    } else if (counter % 2 === 0) {
-        tweedeKaartHouder = id;
-        pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
-        vorigeRondeTweedeKaartHouder = id;
-        console.log("second");
-        if (kaartPlaatjes[eersteKaartHouder] === kaartPlaatjes[tweedeKaartHouder]) {
-            //je mag nog een keer
-            console.log("correct");
-            kaartPlaatjesGeheugen[eersteKaartHouder] = 1;
-            booleanEersteKaartHouder = false;
-            kaartPlaatjesGeheugen[tweedeKaartHouder] = 1;
-            booleanTweedeKaartHouder = false;
-            //Player score update
-            if (beurt % 2 === 1) {
-                player1Score++;
-            } else if (beurt % 2 === 0) {
-                player2Score++;
-            }
-        } else {
-            console.log("incorrect");
-            //beurt is over
+    if (counter % 2 === 0) {
+        if (kaartPlaatjesGeheugen[id] === 0) {
+            eersteKaartHouder = id;
+            pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
+            console.log("first");
             booleanEersteKaartHouder = true;
+            counter++;
+        }
+    } else if (counter % 2 === 1) {
+        if (kaartPlaatjesGeheugen[id] === 0) {
+            tweedeKaartHouder = id;
+            pictureHolders[id].firstChild.src = "img/Kleur" + kaartPlaatjes[id] + ".png";
+            console.log("second");
             booleanTweedeKaartHouder = true;
-            beurt++;
+            counter++;
+        }
+        if (booleanEersteKaartHouder && booleanTweedeKaartHouder) {
+            if (kaartPlaatjes[eersteKaartHouder] === kaartPlaatjes[tweedeKaartHouder]) {
+                //je mag nog een keer
+                console.log("correct");
+                kaartPlaatjesGeheugen[eersteKaartHouder] = 1;
+                booleanEersteKaartHouder = false;
+                kaartPlaatjesGeheugen[tweedeKaartHouder] = 1;
+                booleanTweedeKaartHouder = false;
+                //Player score update
+                let player1 = document.getElementById("player1");
+                let player2 = document.getElementById("player2")
+                if (beurt % 2 === 0) {
+                    player1Score++;
+                    player1.textContent = "Player 1 score: " + player1Score;
+                } else if (beurt % 2 === 1) {
+                    player2Score++;
+                    player2.textContent = "Player 1 score: " + player2Score;
+                }
+            } else {
+                console.log("incorrect");
+                //beurt is over
+                if (beurt % 2 === 0) {
+
+                }
+                beurt++;
+            }
         }
     } else {
         console.log("Math.error");

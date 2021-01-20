@@ -14,4 +14,20 @@ div.picture-holder {
      margin: auto;
      width: 1500px;
      height: 750px;
- }
+}
+#scoreboard {
+ height: 50px;
+}
+#player1 {
+    float: left;
+    font-size: 200%;
+}
+#title {
+    float: inside;
+    font-size: 200%;
+}
+#player2 {
+    float: right;
+    font-size: 200%;
+
+}
