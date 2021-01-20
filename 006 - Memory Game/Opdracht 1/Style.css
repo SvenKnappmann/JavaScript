@@ -21,6 +21,7 @@ div.picture-holder {
 #player1 {
     float: left;
     font-size: 200%;
+    border: black solid 1px;
 }
 #title {
     float: inside;
@@ -29,5 +30,5 @@ div.picture-holder {
 #player2 {
     float: right;
     font-size: 200%;
-
+    border: black solid 1px;
 }
